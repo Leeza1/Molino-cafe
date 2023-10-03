@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TABLE - Molino</title>
+	<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" >
+	<link rel="stylesheet" type="text/css" href="css/table.css"> 
+	<script src="https://kit.fontawesome.com/61bd0c5d26.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="cafe.html">MOLINO</a>
+		</div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li ><a href="cafe.html">HOME</a></li>
+				<li ><a href="about.html">ABOUT US</a></li>
+				<li><a href="menu.html">MENU</a></li>
+				<li><a href="shop.html">SHOP</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="tion">RESERVATION</span><b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li class="active"><a href="table.html">TABLE</a></li>
+						<li><a href="acc.html">MY ACCOUNT</a></li> 
+					</ul>
+				</li>
+				<li class="search"><i class="fas fa-search"></i></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="intro-block"></div>
+	<div class="container gallary">
+		<h1><span class="our">Our</span> Reservation</h1>
+		<div class="col-md-6 res">
+			<h2><span class="head">All reservations made online require a emailed confirmation.</span></h2>
+			<h2>If you do not have a email confirmation, sorry you do not have a reservation. Please feel free to walk-in.</h2>
+			<h2>No online reservations are available on Saturdays or holidays.Sunday reservations are available from 3pm – 5pm only.</h2>
+		</div>
+		<div class="col-md-6 va">
+			<h2><span class="head">All reservations have a 15 minutes grace period.</span></h2>
+			<h2>All guests must be present in order for your reservation to be seated.</h2>
+		    <h2>Reservations require a 24 hour notice & must have an email confirmation. Reservations made after 5:00 pm for the same day may not be honored. Feel free to walk in.</h2>
+		</div>
+	</div>
+	<div class="container find">
+		<div class="col-md-6 a">
+			<h1><span class="input">Find</span> a Table</h1>
+			<div class="otw-time-wrap otw-input-wrap">
+				<label for="time-otw_widget-2"> Enter a Date:</label>
+	               <input type="date" name="gfcb" max="2020-01-02" min="1979-12-31">
+	       </div><br>
+			<div class="otw-time-wrap otw-input-wrap">
+				<label for="time-otw_widget-2"> Enter the Time:</label>
+					<select id="time-otw_widget-2" name="ResTime" class="otw-reservation-time otw-selectpicker">
+						<option value="8:00am">8:00 am</option>
+						<option value="8:30am">8:30 am</option>
+						<option value="9:00am">9:00 am</option>
+						<option value="9:30am">9:30 am</option>
+						<option value="10:00am">10:00 am</option>
+						<option value="10:30am">10:30 am</option>
+						<option value="11:00am">11:00 am</option>
+						<option value="11:30am">11:30 am</option>
+						<option value="12:00pm">12:00 pm</option>
+						<option value="12:30pm">12:30 pm</option>
+						<option value="1:00pm">1:00 pm</option>
+						<option value="1:30pm">1:30 pm</option>
+						<option value="2:00pm">2:00 pm</option>
+						<option value="2:30pm">2:30 pm</option>
+						<option value="3:00pm">3:00 pm</option>
+						<option value="3:30pm">3:30 pm</option>
+						<option value="4:00pm">4:00 pm</option>
+						<option value="4:30pm">4:30 pm</option>
+						<option value="5:00pm">5:00 pm</option>
+						<option value="5:30pm">5:30 pm</option>
+						<option value="6:00pm">6:00 pm</option>
+						<option value="6:30pm">6:30 pm</option>
+						<option value="7:00pm" selected="selected">7:00 pm</option>
+						<option value="7:30pm">7:30 pm</option>
+						<option value="8:00pm">8:00 pm</option>
+						<option value="8:30pm">8:30 pm</option>
+						<option value="9:00pm">9:00 pm</option>
+						<option value="9:30pm">9:30 pm</option>
+						<option value="10:00pm">10:00 pm</option>
+						<option value="10:30pm">10:30 pm</option>
+						<option value="11:00pm">11:00 pm</option>
+						<option value="11:30pm">11:30 pm</option>
+				    </select>
+			</div><br>
+			<div class="otw-party-size-wrap otw-input-wrap">
+				<label for="party-otw_widget-2">Party Size:</label>
+					<select id="party-otw_widget-2" name="partySize" class="otw-party-size-select selectpicker">
+						<option value="1">1 Person</option>
+						<option value="2" selected="selected">2 People</option>
+						<option value="3">3 People</option>
+						<option value="4">4 People</option>
+						<option value="5">5 People</option>
+						<option value="6">6 People</option>
+						<option value="7">7 People</option>
+						<option value="8">8 People</option>
+						<option value="9">9 People</option>
+						<option value="10">10 People</option>
+				    </select>
+			</div>
+			<div class="button1">
+		      <button class="send"><a href="menu.html"></a><i class="far fa-eye"></i></i> FIND A TABLE</button>
+		    </div>
+		</div>
+		<div class="col-md-6 b">
+			<h1><span class="input">By</span> Phone</h1>
+			<div class="up">
+				<div class="icon"><i class="fas fa-mobile-alt"></i></div>
+				<div class="data">
+					<h1>(014)586-97559</h1>
+					<h2>Between 10am-5pm, Sunday to Friday</h2>
+				</div>
+			</div>.
+			<div class="down">
+				<div class="icon1"><i class="fas fa-map-marker-alt"></i></div>
+				<div class="data1">
+					<h1>Food Inc.</h1>
+					<h1>PO Box No:245756</h1>
+					<h1>200 Trafalgar Road</h1>
+					<h1>Oakville, ON MGL 6Y9</h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d724.1229597342224!2d-79.67540141712081!3d43.45032800054936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b5c92f97f68a9%3A0x7f86d483341300f8!2s200+Trafalgar+Rd!5e0!3m2!1sen!2snp!4v1565451269364!5m2!1sen!2snp" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	<div class="con"></div>
+	<div class="container service">
+		<h1><span class="ours">Contact</span> Us</h1><hr>
+		<div class="forms">
+		<h2>Need a quote, enquiry about out restaurant or have a suggestion for our restaurant, we need to hear from you:</h2>
+			<form class="form-horizontal tpad" role="form">
+				<div class="form-group">
+					<label for="name" class="col-lg-2 control-label">Name</label>
+						<div class="col-lg-8">
+							<input type="name" class="form-control" id="name" placeholder="Name">
+						</div>
+				</div>
+				<div class="form-group">
+					<label for="email" class="col-lg-2 control-label">Email</label>
+						<div class="col-lg-8">
+							<input type="email" class="form-control" id="email" placeholder="Email">
+						</div>
+				</div>
+				<div class="form-group tpad">
+					<label for="message" class="col-lg-2 control-label">Message</label>
+					    <div class="col-lg-8">
+							<textarea class="form-control" rows="4" id="message" placeholder="Message..."></textarea>
+						</div>
+				</div>
+			</form>
+		</div>
+		<div class="button">
+			        <button class="mes"> <span class="message">SEND MESSAGE</span><i class="fas fa-arrow-circle-right"></i></button>
+		 </div>
+	</div>
+	<div class="footer">
+		<h1><a href="home.html"></a>MOLINO</h1>
+                <h4>MOLINO</h4>
+				<h4>PO BOX NO: 245756</h4>
+				<h4>200 Trafalgar Road</h4>
+				<h4>Oakville, ON MGL 6Y9</h4>
+				<h4>01-458697559, 01-546464646</h4>
+				<p class="face"><i class="fab fa-facebook-f"></i> <i class="fab fa-twitter"></i> <i class="fab fa-instagram"></i> <i class="fab fa-google-plus-g"></i> <i class="fab fa-linkedin-in"></i> <i class="fab fa-skype"></i></p>
+			    <p>© 2019 MOLINO by <a href="http://codeless.co" rel="nofollow">codeless.co</a>. All Rights Reserved</p>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script>
+    $(function (){
+    	$('.carousel').carousel({
+    		interval: 4000
+    	});
+    })
+    </script>
+</body>
+</html>

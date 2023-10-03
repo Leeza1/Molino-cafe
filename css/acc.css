@@ -1,0 +1,242 @@
+.navbar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: red;
+    color: black;
+    padding: 2% 0;
+    font-size: 1.2em;
+    border: 0;
+    padding-right: 20px;
+    position: absolute;   
+}
+.navbar-brand{
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 9px;
+    font-weight: bold;
+    font-family: Bradley Hand ITC;  
+}
+.navbar-inverse {
+    background-color: #f5f5f500;
+    border-color: #f5f5f500;
+ }  
+.navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+li{ 
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.0px;
+    line-height: 16px;
+    text-align: center;
+    margin: 0px 19px;
+    text-transform:uppercase;
+}
+li:hover{
+    text-decoration: underline;  
+}
+.search{
+    float: left;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 19px 19px 0px 10px;
+    text-transform:uppercase;
+}
+.tion{
+    border-style: solid;
+    border-color:  #ffffff;
+    border-width: 1.5px;
+    padding: 6px;
+}
+.intro-block{
+    background-image: url(../images/en.jpg);
+    width: 100%;
+    height: 515px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+} 
+.my{
+    text-align: center;
+}
+.my h1{
+    margin-top: 45px;
+    font-family:Prata, Georgia, serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: rgb(40, 50, 51);
+}
+.my h2{
+    font-family:"Open Sans", Helvetica, Arial;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(230,133,86);
+}
+.home{
+    color: rgb(115, 132, 142);
+}
+.home:hover{
+    color: rgb(230,133,86);
+}
+.or {
+     margin-top: 45px;
+    font-family:Prata, Georgia, serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: rgb(40, 50, 51);
+}
+.account{
+    background-color: #f7f9fb;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.account h1{
+    font-size: 16px;
+    margin-top: 45px;
+    font-family:Prata, Georgia, serif;
+    font-weight: 400;
+    color: rgb(40, 50, 51);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.control-label{
+    margin-left: 55px;
+    font-family:"Open Sans", Helvetica, Arial;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(115, 132, 142);
+}
+.account h3{
+    font-size: 16px;
+    font-family:"Open Sans", Helvetica, Arial;
+    font-weight: 400;
+    color: rgb(115, 187, 177);
+    margin-bottom: 40px;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    margin: 20px;
+}
+button.send{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 30px;
+    background-color: rgb(128,208,197);
+    color: #ffffff;
+    border-style: none;
+    margin: 10px 20px 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.map{
+    height: 350px;
+    width: 100%;
+}
+.con{
+    background-color:white; 
+    height: 100px;
+}
+.service h1{
+    color: #23292c;
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 60px;
+    text-transform: none;
+    margin-top: 65px;
+    margin-bottom: 40px;  
+}
+.ours{
+    color: #e68556;
+    font-size: 60px;
+}
+
+.forms{
+    text-align: center;
+}
+.forms h2{
+    text-align: center;
+    color: rgb(115,132,142);
+    display: inline-block;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 30px;
+    letter-spacing: normal;
+    font-family: "Open Sans", Helvetica, Arial;;
+}
+
+.forms label{
+    font-family: Prata,Georgina,serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #23292c;
+}
+.col-lg-8{
+    margin-bottom: 10px;
+}
+.button{
+    text-align: center;
+    margin: 35px;
+}
+button.mes{
+    text-align: center;
+    font-size: 15px;
+    padding: 20px 30px;
+    background-color: #e68556;
+    color: #ffffff;
+    border-style: none;
+    margin: 10px 20px 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+.message{
+    margin-right: 10px;
+}
+
+.footer{
+     background-color:#23292c; 
+     height: 247px;
+     padding: 20px 50px;
+}
+.footer h1{
+    text-align: center;
+    color: #868288;
+    font-size: 30px;
+    letter-spacing: 9px;
+    font-weight: bold;
+    font-family: Bradley Hand ITC;  
+}
+.footer h4{
+    color: #868288;
+    font-family: "Open Sans", Helvetica, Arial;
+    font-size: 13px;
+    line-height: 10px;
+    font-weight: 400;
+    text-align: center;  
+}
+.footer p{
+    position: relative; bottom; 
+    color: #868288;text-align: center;
+    text-align: center; 
+}
+.face{
+    font-size: 17px;
+    margin-right: 20px;
+}
+.face:hover{
+    color:  #e68556;
+}
